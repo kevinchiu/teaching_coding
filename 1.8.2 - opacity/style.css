@@ -1,0 +1,73 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  color:#FFA500;
+  font-size:100px;
+  text-align:center;
+  font-weight:bold;
+  font-style:italic;
+  text-decoration:underline;
+}
+
+#poem {
+  color: darkgrey;
+  text-align:center;
+  font-style:italic;
+}
+
+li, td, #poem {
+  /*
+  This is a CSS comment.
+  Line Height is the vertical space a line of text will take.
+  The em unit is the number of pixels a capital M will take.
+  */
+  line-height:1.5em;
+}
+
+.center {
+  text-align:center;
+}
+
+#gold {
+  color:gold;
+}
+
+.nutrition_item {
+  padding-left:20px;
+}
+
+.amount {
+  padding-left:20px;
+}
+
+h2 {
+  margin-top:50px;
+}
+
+.left_column {
+  float:left;
+  margin-right:50px;
+}
+
+.right_column {
+  float:left;
+}
+
+.clearfix {
+  clear:both;
+}
+
+#pie_drawing {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  width:30px;
+  opacity:0.25;
+}
+
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+}
